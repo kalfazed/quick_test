@@ -1,0 +1,202 @@
+{
+    "os": "Linux-6.2.0-39-generic-x86_64-with-glibc2.35",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-07-25T02:12:06.451126",
+    "startedAt": "2024-07-25T02:12:05.880848",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jixinhan/Code/quick_test/wandb_logging.py",
+    "codePathLocal": "wandb_logging.py",
+    "codePath": "wandb_logging.py",
+    "host": "dpc2406503",
+    "username": "jixinhan",
+    "executable": "/home/jixinhan/miniconda3/envs/perceptive_mind/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2974.1138124999998,
+        "min": 800.0,
+        "max": 5087.5
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 1237.525,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 1500.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 1740.093,
+            "min": 800.0,
+            "max": 6000.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 6000.0
+        },
+        {
+            "current": 1746.141,
+            "min": 800.0,
+            "max": 6000.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 6000.0
+        },
+        {
+            "current": 1319.405,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 1280.384,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5700.0
+        },
+        {
+            "current": 1348.012,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 832.269,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 4400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.3232879638672,
+            "used": 121.49224472045898
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.532657623291016
+    }
+}

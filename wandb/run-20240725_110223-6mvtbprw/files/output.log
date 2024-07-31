@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 72, in <module>
+    main()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 66, in main
+    _log_plot_and_image()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 13, in _log_plot_and_image
+    plt.plot(x, y)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/_api/__init__.py", line 222, in __getattr__
+    raise AttributeError(
+AttributeError: module 'matplotlib' has no attribute 'plot'

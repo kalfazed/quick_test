@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 75, in <module>
+    main()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 69, in main
+    _log_plot_and_image()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 13, in _log_plot_and_image
+    plt.figure()
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/pyplot.py", line 806, in figure
+    manager = new_figure_manager(
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/pyplot.py", line 325, in new_figure_manager
+    return _get_backend_mod().new_figure_manager(*args, **kwargs)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 3494, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/backends/_backend_tk.py", line 965, in new_figure_manager_given_figure
+    canvas = cls.FigureCanvas(figure, master=window)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/_api/deprecation.py", line 389, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/backends/_backend_tk.py", line 177, in __init__
+    self._tkcanvas.create_image(w//2, h//2, image=self._tkphoto)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/tkinter/__init__.py", line 2819, in create_image
+    return self._create('image', args, kw)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/tkinter/__init__.py", line 2805, in _create
+    return self.tk.getint(self.tk.call(
+KeyboardInterrupt

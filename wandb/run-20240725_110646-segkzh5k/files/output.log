@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 72, in <module>
+    main()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 66, in main
+    _log_plot_and_image()
+  File "/home/jixinhan/Code/quick_test/wandb_logging.py", line 19, in _log_plot_and_image
+    wandb.log({"sine_wave": plt})
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1838, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1602, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1474, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 584, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/data_types/utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/data_types/utils.py", line 86, in val_to_json
+    val = Plotly.make_plot_media(val)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/sdk/data_types/plotly.py", line 49, in make_plot_media
+    val = util.matplotlib_to_plotly(val)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/wandb/util.py", line 516, in matplotlib_to_plotly
+    return tools.mpl_to_plotly(obj)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/plotly/tools.py", line 106, in mpl_to_plotly
+    matplotlylib.Exporter(renderer).run(fig)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/plotly/matplotlylib/mplexporter/exporter.py", line 52, in run
+    plt.close(fig)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/pyplot.py", line 948, in close
+    _pylab_helpers.Gcf.destroy_fig(fig)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/_pylab_helpers.py", line 80, in destroy_fig
+    cls.destroy(num)
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/_pylab_helpers.py", line 67, in destroy
+    manager.destroy()
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/backends/_backend_tk.py", line 508, in destroy
+    if cbook._get_running_interactive_framework() == "tk":
+  File "/home/jixinhan/miniconda3/envs/perceptive_mind/lib/python3.10/site-packages/matplotlib/cbook/__init__.py", line 89, in _get_running_interactive_framework
+    if not _c_internal_utils.display_is_valid():
+KeyboardInterrupt
